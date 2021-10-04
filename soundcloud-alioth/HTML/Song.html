@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+  </head>
+  <body>
+    <p class = "lblButton" id = "btnHome" href="Index.html" onclick="window.location.href = './Index.html'">Home</p>
+    <div class = "songContainer">
+      <img id = "imgAlbumCover" src = "" alt="Album Cover">
+      <div class = "songContainerItems">
+        <p id = "lblSongName"></p>
+        <p class = "lblButton" id = "lblArtist"></p>
+        <br>
+        <div class = "songContainer">
+          <audio controls autoplay id = "audioPlayer">
+            <source id = "audioSource" src = "">
+          </audio>
+          <p style = "padding-left: 15px;" class = "lblButton" id = "btnFavorite">❤</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="../Scripts/Song.js"></script>
+  </body>
+</html>

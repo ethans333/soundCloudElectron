@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+  </head>
+  <body>
+    <p class = "lblButton" id = "btnHome" href="Index.html" onclick="window.location.href = './Index.html'">Home</p>
+    <div style="display: flex; flex-direction: row;">
+      <div class ="stickyContainer">
+        <img id = "imgArtist" src="../Images/Alioth-Square.jpg" alt="Artist-Image">
+        <h1 id = "lblArtist"></h1>
+        <p id = "lblFollowers"></p>
+        <p id = "lblTracks"></p>
+      </div>
+
+      <div style = "padding-left: 220px;" id = "infoContainer"></div>
+    </div>
+
+    <br>
+    
+    <script src = "../Scripts/Artist.js"></script>
+  </body>
+</html>

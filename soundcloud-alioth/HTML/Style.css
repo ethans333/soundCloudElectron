@@ -1,0 +1,77 @@
+:root {
+    --purple: #b176a4;
+    --hotpink: rgb(255, 107, 156);
+    --imageW: 200px;
+}
+  
+#imgAlbumCover, #imgArtist {
+    width: var(--imageW);
+    height: var(--imageW);
+}
+
+#imgArtist {
+    border-radius: 50%;
+}
+
+#imgAlioth-Text {
+    width: 100px;
+}
+
+.songContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.songContainerItems {
+    padding-left: 20px;
+}
+
+.lblButton:hover {
+    cursor: pointer;
+    color: var(--hotpink);
+}
+
+.stickyContainer {
+    position: fixed;
+}
+
+#txtSearch {
+    height: 15px;
+}
+
+#btnSearch {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#btnHome {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 20px;
+}
+
+#loadingContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+#loadingImage {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 20%;
+}
+
+#btnFavorite {
+    padding-left: 15px;
+}
